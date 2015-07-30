@@ -1,0 +1,33 @@
+
+
+
+
+
+
+<div class ="col-md-8">
+  <div class="page-header">
+    <h1><%= @idea.title %></h1>
+</div>
+<p>
+  <%= @idea.caption %> 
+  
+</p>
+  
+  <a href="/idea/<%= @idea.id%>/edit"> edit </a>
+  
+  <a href="/idea/<%= @idea.id%>/delete"> delete </a>
+
+
+</div>
+  
+
+
+<div class="row">
+  <div class="col-md-4">
+    <a href="#" class="thumbnail">
+      <img src="<%= @idea.url %>" alt="...">
+    </a>
+  
+  
+  
+</div>

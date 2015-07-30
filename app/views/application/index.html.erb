@@ -1,0 +1,15 @@
+
+<ul>
+  <% @ideas.each do |idea| %> 
+
+  <li><%= idea.title %>
+  <a href="/idea/<%= idea.id%>"> show the page. </a> &spades;
+  <a href="/idea/<%= idea.id%>/edit"> edit </a> &spades;
+  <a href="/idea/<%= idea.id%>/delete"> delete </a>
+    
+  
+ </li>
+  
+<%  end %> 
+  
+</ul>
